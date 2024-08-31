@@ -35,7 +35,7 @@ export default function Home() {
             CodeBucks
           </h1>
           <p className="font-light text-foreground text-lg">
-            Meet the wizard behind this portfolio
+            Meet the Genius Behind the Portfolio
           </p>
         </div>
       </div>
