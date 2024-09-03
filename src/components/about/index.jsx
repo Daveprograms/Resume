@@ -12,18 +12,10 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+          Mage of Modern Code
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+          I’m a versatile developer with a broad range of skills. As a full-stack developer, I build dynamic, user-friendly applications from front end to back end. My expertise extends into AI and machine learning, where I develop intelligent systems that solve complex problems. I’m also a data analyst, extracting insights from complex datasets using Python. Whether it’s crafting seamless web experiences, optimizing models, or ensuring smooth backend operations, I’m passionate about leveraging technology to create innovative solutions.
           </p>
         </ItemLayout>
 
@@ -31,7 +23,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            10+ <sub className="font-semibold text-base">clients</sub>
           </p>
         </ItemLayout>
 
@@ -39,7 +31,7 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            4+{" "}
+            3+{" "}
             <sub className="font-semibold text-base">years of experience</sub>
           </p>
         </ItemLayout>
