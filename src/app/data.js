@@ -47,9 +47,9 @@ export const projectsData = [
   {
     id: 7,
     name: "Zoom Clone",
-    description: "Coming soon!!",
+    description: "Built a Zoom clone with real-time video calls, screen sharing, and chat features.",
     date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
+    demoLink: "https://talkzone-blush.vercel.app/sign-in?redirect_url=https%3A%2F%2Ftalkzone-blush.vercel.app%2F",
   },
   {
     id: 8,
