@@ -54,14 +54,14 @@ const Sound = () => {
   useEffect(() => {
     const consent = localStorage.getItem("musicConsent");
     const consentTime = localStorage.getItem("consentTime");
-
+  
     if (
       consent &&
       consentTime &&
       new Date(consentTime).getTime() + 3 * 24 * 60 * 60 * 1000 > new Date()
     ) {
       setIsPlaying(consent === "true");
-
+  
       if (consent === "true") {
         ["click", "keydown", "touchstart"].forEach((event) =>
           document.addEventListener(event, handleFirstUserInteraction)
@@ -70,7 +70,15 @@ const Sound = () => {
     } else {
       setShowModal(true);
     }
-  }, []);
+  
+    // Clean up the event listeners when the component unmounts
+    return () => {
+      ["click", "keydown", "touchstart"].forEach((event) =>
+        document.removeEventListener(event, handleFirstUserInteraction)
+      );
+    };
+  }, [handleFirstUserInteraction]); // Add handleFirstUserInteraction here
+  
 
   const toggle = () => {
     const newState = !isPlaying;
