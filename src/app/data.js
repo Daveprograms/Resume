@@ -7,6 +7,7 @@ export const projectsData = [
     description: "Coming soon!!",
     date: "2022-08-15",
     demoLink: "https://ecotracker.example.com",
+    
   },
   {
     id: 2,
