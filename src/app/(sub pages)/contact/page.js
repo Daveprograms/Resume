@@ -11,7 +11,7 @@ export default function Contact() {
     <>
       <Image
         src={bg}
-        alt="Next.js Portfolio website's contact page background image"
+        alt="Next.js Portfolio website&#39;s contact page background image" // Updated to escape single quote
         priority
         sizes="100vw"
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-50"
@@ -23,7 +23,7 @@ export default function Contact() {
             summon the wizard
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-          Step into a world where imagination meets magic. With a wealth of knowledge from every corner of the wizarding world, I'm here to turn your visions into reality. Contact me to bring your ideas to life, and let’s create something truly magical together.
+            Step into a world where imagination meets magic. With a wealth of knowledge from every corner of the wizarding world, I'm here to turn your visions into reality. Contact me to bring your ideas to life, and let’s create something truly magical together.
           </p>
         </div>
         <Form />
