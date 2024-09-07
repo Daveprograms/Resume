@@ -23,8 +23,9 @@ export default function Contact() {
             summon the wizard
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-            Step into a world where imagination meets magic. With a wealth of knowledge from every corner of the wizarding world, I'm here to turn your visions into reality. Contact me to bring your ideas to life, and let’s create something truly magical together.
-          </p>
+  Step into a world where imagination meets magic. With a wealth of knowledge from every corner of the wizarding world, I'm here to turn your visions into reality. Contact me to bring your ideas to life, and let&#39;s create something truly magical together.
+</p>
+
         </div>
         <Form />
       </article>
