@@ -17,7 +17,7 @@ export const metadata = {
       "Portfolio Website Created with Next.js, Tailwind CSS, Three.js, and Framer Motion",
   },
   description:
-    "Portfolio website created with Next.js, Tailwind CSS, Three.js, and Framer Motion. It showcases the projects and blogs of a software developer.",
+    "Portfolio Website created with Next.js, Tailwind css,Three.js and framer motion to showcase my skills.",
 };
 
 export default function RootLayout({ children }) {
