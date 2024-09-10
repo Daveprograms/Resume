@@ -78,6 +78,8 @@ const Sound = () => {
       );
     };
   }, [handleFirstUserInteraction]); // Add handleFirstUserInteraction here
+
+  
   
 
   const toggle = () => {

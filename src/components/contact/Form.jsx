@@ -55,7 +55,7 @@ export default function Form() {
       .then(
         () => {
           toast.success(
-            "I have received your message, I will get in 1 business day!",
+            "Your message has been sent successfully! I will get back to you as soon as possible.",
             {
               id: toastId,
             }
