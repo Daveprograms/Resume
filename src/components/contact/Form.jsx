@@ -31,14 +31,6 @@ export default function Form() {
   const sendEmail = (params) => {
     const toastId = toast.loading("Sending your message, please wait...");
 
-    // toast.info(
-    //   "Form submissions are demo-only here. Please checkout the final code repo to enable it. If you want to connect you can reach out to me via codebucks27@gmail.com.",
-    //   {
-    //     id: toastId,
-    //   }
-    // );
-
-    // comment out the above toast.info and uncomment the below code to enable emailjs
 
     emailjs
       .send(
@@ -135,7 +127,7 @@ export default function Form() {
             },
             minLength: {
               value: 10,
-              message: "Message should be more than 50 characters",
+              message: "Message should be more than 10 characters",
             },
           })}
           className="w-full p-2 rounded-md shadow-lg text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 custom-bg"
