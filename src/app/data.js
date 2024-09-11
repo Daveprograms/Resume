@@ -72,6 +72,17 @@ export const projectsData = [
     date: "2022-02-14",
     demoLink: "https://mindfulmoments.example.com",
   },
+
+
+
+  // This is for experience not project
+{
+    id: 11, 
+    name: "EcoTracker",
+    description: "Coming soon!!",
+    date: "2022-01-01",
+    demoLink: "https://ecotracker.example.com",
+}
 ];
 
 export const BtnList = [
